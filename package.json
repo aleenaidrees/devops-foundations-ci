@@ -1,0 +1,26 @@
+{
+  "name": "devops-week01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p . --noEmit",
+  "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleenaidrees/devops-foundations-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleenaidrees/devops-foundations-ci/issues"
+  },
+  "homepage": "https://github.com/aleenaidrees/devops-foundations-ci#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
